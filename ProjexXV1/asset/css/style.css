@@ -1,0 +1,64 @@
+@font-face {
+    font-family: iransansg;
+    src: url(../font/IRANSansWeb.ttf);
+    src: url(../font/IRANSansWeb\(FaNum\).woff2);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: iransansg;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text_justify {
+    text-align: justify;
+}
+
+.h7 {
+    font-size: 14px;
+}
+
+.h8 {
+    font-size: 12px;
+}
+
+.height_100 {
+    min-height: 100vh;
+}
+
+.height_90 {
+    min-height: 90vh;
+}
+
+.height_75 {
+    min-height: 75vh;
+}
+
+.height_50 {
+    min-height: 50vh;
+}
+
+.height_25 {
+    min-height: 25vh;
+}
+
+.box_1 {
+    height: 40px;
+    width: 40px;
+}
+
+.box_2 {
+    height: 60px;
+    width: 60px;
+}
+
+.box_3 {
+    height: 20px;
+    width: 20px;
+}
