@@ -1,4 +1,4 @@
-function show (e) {
+$(".btn").click(function show() {
     $(".show").addClass("d-none");
-    $(e).removeClass("d-none");
-}
+    $(this.id).removeClass("d-none");
+});
