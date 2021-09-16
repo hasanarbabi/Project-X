@@ -62,3 +62,16 @@ a {
     height: 20px;
     width: 20px;
 }
+
+.overflowy {
+    overflow-y: auto;
+}
+
+
+
+
+@media (min-width: 1200px) {
+    .height_75 {
+        height: 75vh;
+    }
+}
