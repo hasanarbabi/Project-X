@@ -67,6 +67,14 @@ a {
     overflow-y: auto;
 }
 
+.spin {
+    width: 64%;
+    height: 76%;
+    top: 19%;
+    right: 18%;
+    background-color: rgba(49, 46, 46, 0.5);
+}
+
 
 
 
