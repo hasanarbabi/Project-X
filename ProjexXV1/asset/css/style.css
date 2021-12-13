@@ -12,12 +12,20 @@ body,h1,h2,h3,h4,h5,h6 {
     font-family: iransansg;
 }
 
+body {
+    background-color: #f5f7f9;
+}
+
 a {
     text-decoration: none;
 }
 
 .text_justify {
     text-align: justify;
+}
+
+.fs-20 {
+    font-size: 20px;
 }
 
 .h7 {
@@ -33,7 +41,7 @@ a {
 }
 
 .height_90 {
-    min-height: 90vh;
+    height: 90vh;
 }
 
 .height_75 {
@@ -72,9 +80,24 @@ a {
     height: 76%;
     top: 19%;
     right: 18%;
-    background-color: rgba(49, 46, 46, 0.5);
+    /* background-color: rgba(49, 46, 46, 0.5); */
 }
 
+.br-16 {
+    border-radius: 16px;
+}
+
+.br-20 {
+    border-radius: 20px;
+}
+
+.texcol-w {
+    color: white;
+}
+
+.la-105x {
+    font-size: 30px;
+}
 
 
 

@@ -1,9 +1,16 @@
+// Click Function to show and hide section
+
 $(".btn").click(function show() {
     $("#spinner").removeClass("d-none");
     loading();
     $(".show").addClass("d-none");
     $(this.id).removeClass("d-none");
+    console.log(this.id);
+    $(".btn").removeClass("bg-white text-success fw-bold");
+    $(this).addClass("bg-white text-success fw-bold");
 });
+
+// Loading Function to load on each click
 
 function loading() {
     $.ajax({
